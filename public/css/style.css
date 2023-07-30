@@ -1,0 +1,36 @@
+/* Your CSS styles go here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.blog-container {
+    display: grid;
+    place-items: center;
+}
+
+.post-content {
+    /* margin: 20px; Optional: Add some spacing around the content */
+    margin: auto;
+    text-align: center; /* Align the content to the left */
+    max-width: 800px; /* Optional: Set the maximum width of the content */
+}
+
+a {
+    display: block;
+    margin: 10px 0;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
