@@ -38,9 +38,9 @@ function displayPostContent(postId) {
       })
       .then((content) => {
         postContent.innerHTML = `
-          <div class="post-content"> <!-- Add the post-content class here -->
+          <div class="post-content">
             <h2>${post.title}</h2>
-            <p>${content.replace(/\n/g, '<br>')}</p> <!-- Use <br> tags for line breaks -->
+            <p>${content.replace(/\n/g, '<br>')}</p>
           </div>
         `;
       })
